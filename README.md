@@ -66,7 +66,7 @@ Além das características obrigatórias e opcionais, o aplicativo também possu
 
 1. Clone o repo
    ```sh
-   gh repo clone Agev-Projects/shoplist-react-native-app
+   git clone https://github.com/Agev-Projects/shoplist-react-native-app.git
    ```
 2. Instale os pacotes
    ```sh
