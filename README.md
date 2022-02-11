@@ -11,16 +11,16 @@
   <summary>Tabela</summary>
   <ol>
     <li>
-      <a href="#descricao">Descrição do Projeto</a>
+      <a href="#descrição-do-projeto">Descrição do Projeto</a>
       <ul>
-        <li><a href="#caracteristicas">Características do Projeto</a></li>
-        <li><a href="#caracteristicas-adicionais">Características adicionais</a></li>
+        <li><a href="#características-do-projeto">Características do Projeto</a></li>
+        <li><a href="#características-adicionais">Características adicionais</a></li>
       </ul>
     </li>
     <li>
-      <a href="#instalacao">Instalação do projeto</a>
+      <a href="#instalação-do-projeto">Instalação do projeto</a>
       <ul>
-       <li><a href="#dependencias">Dependências do Projeto</a></li>
+       <li><a href="#dependências-do-projeto">Dependências do Projeto</a></li>
       </ul>
     </li>
   </ol>
@@ -40,26 +40,26 @@ O projeto foi desenvolvido em React Native utilizando o Expo CLI. O aplicativo p
 
 <h4>Requisitos Obrigatórios </h4>
 
-⋅⋅* :heavy_check_mark: O app deve ser desenvolvido em React Native;
-⋅⋅* :heavy_check_mark: O app deve possuir um campo para cadastro de novos itens na lista;
-⋅⋅* :heavy_check_mark: O app deve contabilizar alterar os estilos do item da lista caso este item esteja selecionado;
-⋅⋅* :heavy_check_mark: O app deve permitir a exclusão de itens da lista, sendo que é necessário confirmar com o usuário se o item pode realmente ser excluído;
-⋅⋅\* :heavy_check_mark: O app deve apresentar a mensagem de “nenhum item na lista” caso nenhum item tenha sido adicionado.
+- :heavy_check_mark: O app deve ser desenvolvido em React Native;
+- :heavy_check_mark: O app deve possuir um campo para cadastro de novos itens na lista;
+- :heavy_check_mark: O app deve contabilizar alterar os estilos do item da lista caso este item esteja selecionado;
+- :heavy_check_mark: O app deve permitir a exclusão de itens da lista, sendo que é necessário confirmar com o usuário se o item pode realmente ser excluído;
+- :heavy_check_mark: O app deve apresentar a mensagem de “nenhum item na lista” caso nenhum item tenha sido adicionado.
 
 <h4>Requisitos Opcionais </h4>
 
-⋅⋅* :heavy_check_mark: Splash screen;
-⋅⋅* :heavy_check_mark: Persistir os itens da lista para que o usuário possa fechar o app sem perder os dados;
-⋅⋅* :heavy_check_mark: Confirmar com o usuário se deseja realmente fechar o app;
-⋅⋅* :heavy_check_mark: Permitir edição do nome do item da lista;
-⋅⋅\* :heavy_check_mark: Executar um som ao selecionar/remover seleção de um item da lista.
+- :heavy_check_mark: Splash screen;
+- :heavy_check_mark: Persistir os itens da lista para que o usuário possa fechar o app sem perder os dados;
+- :heavy_check_mark: Confirmar com o usuário se deseja realmente fechar o app;
+- :heavy_check_mark: Permitir edição do nome do item da lista;
+- :heavy_check_mark: Executar um som ao selecionar/remover seleção de um item da lista.
 
 ### CARACTERÍSTICAS ADICIONAIS
 
 Além das características obrigatórias e opcionais, o aplicativo também possui características adicionais, tais quais:
 
-⋅⋅* :heavy_check_mark: Excluir os itens selecionados;
-⋅⋅* :heavy_check_mark: Adicionar preço e cálculo total;
+- :heavy_check_mark: Excluir os itens selecionados;
+- :heavy_check_mark: Adicionar preço e cálculo total;
 
 ## INSTALAÇÃO DO PROJETO
 
