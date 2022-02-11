@@ -11,6 +11,7 @@ const ListItem = ({ item, deleteItem, selectItem, editItem }) => {
   const [modal, setModal] = useState(false);
   const [sound, setSound] = useState();
 
+  //executa som ao selecionar/remover seleção de um item da lista
   async function playSound() {
     const { sound } = await Audio.Sound.createAsync(
       require("../../../../assets/sounds/selected.wav")

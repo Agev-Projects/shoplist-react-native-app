@@ -10,6 +10,7 @@ import List from "./src/components/List/List.js";
 const App = () => {
   const [list, setList] = useState([]);
 
+  //armazena a lista de itens no storage do fone para persistência dos dados
   const saveDataList = async (value) => {
     try {
       const jsonList = JSON.stringify(value);
@@ -19,6 +20,7 @@ const App = () => {
     }
   };
 
+  //lê os dados armazenados no storage
   const getDataList = async () => {
     try {
       const jsonList = await AsyncStorage.getItem("@MyList");
@@ -30,6 +32,8 @@ const App = () => {
 
   useEffect(() => {
     getDataList();
+
+    //confirma saida do App
     const closeApp = () => {
       Alert.alert("AVISO!", "Realmente você deseja fechar o App?", [
         {
