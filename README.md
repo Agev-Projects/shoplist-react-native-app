@@ -1,8 +1,6 @@
 # Teste React Native - Daniel Vega
 
-[splash]: https://github.com/Agev-Projects/shoplist-react-native-app/blob/main/assets/splash.png?raw=true "Splash Screen"
-
-![alt text][splash]
+<img src="https://github.com/Agev-Projects/shoplist-react-native-app/blob/main/assets/splash.png?raw=true" alt="Splash Screen" width="auto" height="512">
 
 ## TABELA DE CONTEÚDO
 
@@ -38,7 +36,7 @@ Este aplicativo possui um campo para que o usuário possa digitar o nome do item
 
 O projeto foi desenvolvido em React Native utilizando o Expo CLI. O aplicativo possui:
 
-<h4>Requisitos Obrigatórios </h4>
+## <h4>Requisitos Obrigatórios </h4>
 
 - :heavy_check_mark: O app deve ser desenvolvido em React Native;
 - :heavy_check_mark: O app deve possuir um campo para cadastro de novos itens na lista;
@@ -46,7 +44,7 @@ O projeto foi desenvolvido em React Native utilizando o Expo CLI. O aplicativo p
 - :heavy_check_mark: O app deve permitir a exclusão de itens da lista, sendo que é necessário confirmar com o usuário se o item pode realmente ser excluído;
 - :heavy_check_mark: O app deve apresentar a mensagem de “nenhum item na lista” caso nenhum item tenha sido adicionado.
 
-<h4>Requisitos Opcionais </h4>
+## <h4>Requisitos Opcionais </h4>
 
 - :heavy_check_mark: Splash screen;
 - :heavy_check_mark: Persistir os itens da lista para que o usuário possa fechar o app sem perder os dados;
@@ -56,10 +54,12 @@ O projeto foi desenvolvido em React Native utilizando o Expo CLI. O aplicativo p
 
 ### CARACTERÍSTICAS ADICIONAIS
 
+---
+
 Além das características obrigatórias e opcionais, o aplicativo também possui características adicionais, tais quais:
 
-- :heavy_check_mark: Excluir os itens selecionados;
-- :heavy_check_mark: Adicionar preço e cálculo total;
+- Excluir os itens selecionados;
+- Adicionar preço e cálculo total;
 
 ## INSTALAÇÃO DO PROJETO
 
