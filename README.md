@@ -79,8 +79,6 @@ Além das características obrigatórias e opcionais, o aplicativo também possu
 
 ### DEPENDÊNCIAS DO PROJETO
 
-<h4>Dependências</h4>
-
 Dependências do projeto
 
 ```
