@@ -80,16 +80,20 @@ Além das características obrigatórias e opcionais, o aplicativo também possu
 ### DEPENDÊNCIAS DO PROJETO
 
 <h4>Dependências</h4>
-``` "@expo-google-fonts/roboto": "^0.2.2",
-    "@react-native-async-storage/async-storage": "~1.15.0",
-    "expo": "~44.0.0",
-    "expo-av": "~10.2.0",
-    "expo-font": "~10.0.4",
-    "expo-status-bar": "~1.2.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-native": "0.64.3",
-    "react-native-bouncy-checkbox": "^2.1.10",
-    "react-native-web": "0.17.1",
-    "uuid": "^3.4.0"
+
+Dependências do projeto
+
+```
+"@expo-google-fonts/roboto": "^0.2.2",
+"@react-native-async-storage/async-storage": "~1.15.0",
+"expo": "~44.0.0",
+"expo-av": "~10.2.0",
+"expo-font": "~10.0.4",
+"expo-status-bar": "~1.2.0",
+"react": "17.0.1",
+"react-dom": "17.0.1",
+"react-native": "0.64.3",
+"react-native-bouncy-checkbox": "^2.1.10",
+"react-native-web": "0.17.1",
+"uuid": "^3.4.0"
 ```
