@@ -1,6 +1,8 @@
 # Teste React Native - Daniel Vega
 
+<p align="center">
 <img src="https://github.com/Agev-Projects/shoplist-react-native-app/blob/main/assets/splash.png?raw=true" alt="Splash Screen" width="auto" height="512">
+</p>
 
 ## TABELA DE CONTEÚDO
 
@@ -52,14 +54,13 @@ O projeto foi desenvolvido em React Native utilizando o Expo CLI. O aplicativo p
 - :heavy_check_mark: Permitir edição do nome do item da lista;
 - :heavy_check_mark: Executar um som ao selecionar/remover seleção de um item da lista.
 
-### CARACTERÍSTICAS ADICIONAIS
+### CARACTERÍSTICA ADICIONAL
 
 ---
 
-Além das características obrigatórias e opcionais, o aplicativo também possui características adicionais, tais quais:
+Além das características obrigatórias e opcionais, o aplicativo também possui uma característica adicional:
 
 - Excluir os itens selecionados;
-- Adicionar preço e cálculo total;
 
 ## INSTALAÇÃO DO PROJETO
 
@@ -79,16 +80,16 @@ Além das características obrigatórias e opcionais, o aplicativo também possu
 ### DEPENDÊNCIAS DO PROJETO
 
 <h4>Dependências</h4>
-```
-"@expo-google-fonts/roboto": "^0.2.2",
-"@react-native-async-storage/async-storage": "~1.15.0",
-"expo": "~44.0.0",
-"expo-av": "~10.2.0",
-"expo-font": "~10.0.4",
-"expo-status-bar": "~1.2.0",
-"react": "17.0.1",
-"react-dom": "17.0.1",
-"react-native": "0.64.3",
-"react-native-bouncy-checkbox": "^2.1.10",
-"react-native-web": "0.17.1"
+``` "@expo-google-fonts/roboto": "^0.2.2",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "expo": "~44.0.0",
+    "expo-av": "~10.2.0",
+    "expo-font": "~10.0.4",
+    "expo-status-bar": "~1.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-bouncy-checkbox": "^2.1.10",
+    "react-native-web": "0.17.1",
+    "uuid": "^3.4.0"
 ```

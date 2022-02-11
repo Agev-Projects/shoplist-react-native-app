@@ -6,11 +6,11 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     backgroundColor: "#2980B9",
+    paddingTop: 10,
   },
   input: {
     backgroundColor: "white",
     width: "80%",
-    height: "60%",
     padding: 10,
     marginHorizontal: 5,
     borderRadius: 5,
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     marginRight: 5,
     width: "15%",
-    height: "62%",
+    height: "70%",
     borderRadius: 5,
   },
   buttonText: {

@@ -1,21 +1,26 @@
 import { useState } from "react";
-import { Text, View, TextInput, TouchableOpacity } from "react-native";
+import {
+  Text,
+  TextInput,
+  TouchableOpacity,
+  KeyboardAvoidingView,
+} from "react-native";
 
 import styles from "./Footer.styles.js";
 
 const Footer = ({ addItem }) => {
   const [text, setText] = useState("");
 
-  const handleChange = (value) => {
+  const handleTextChange = (value) => {
     setText(value);
   };
 
   return (
-    <View style={styles.footer}>
+    <KeyboardAvoidingView behavior="height" style={styles.footer}>
       <TextInput
         placeholder="Novo item da lista"
         style={styles.input}
-        onChangeText={handleChange}
+        onChangeText={handleTextChange}
         value={text}
       />
       <TouchableOpacity
@@ -27,7 +32,7 @@ const Footer = ({ addItem }) => {
       >
         <Text style={styles.buttonText}>+</Text>
       </TouchableOpacity>
-    </View>
+    </KeyboardAvoidingView>
   );
 };
 

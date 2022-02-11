@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import { StyleSheet, View, BackHandler, Alert } from "react-native";
+import { View, BackHandler, Alert } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { v4 as uuidv4 } from "uuid";
 
 import Header from "./src/components/Header/Header.js";
 import Footer from "./src/components/Footer/Footer.js";
@@ -52,7 +53,7 @@ const App = () => {
   const addItem = (text) => {
     setList((previousList) => {
       const add = [
-        { text: text, isSelected: false, key: Math.random() },
+        { text: text, isSelected: false, key: uuidv4() },
         ...previousList,
       ];
       saveDataList(add);
@@ -70,6 +71,16 @@ const App = () => {
           return select;
         }
       }
+    });
+  };
+
+  const deleteSelectedItems = () => {
+    setList((previousList) => {
+      const deleteSelectedItems = previousList.filter(
+        (item) => item.isSelected != true
+      );
+      saveDataList(deleteSelectedItems);
+      return deleteSelectedItems;
     });
   };
 
@@ -95,8 +106,8 @@ const App = () => {
   };
 
   return (
-    <View style={styles.container}>
-      <Header list={list} />
+    <View style={{ flex: 1 }}>
+      <Header list={list} deleteSelectedItems={deleteSelectedItems} />
       <List
         list={list}
         deleteItem={deleteItem}
@@ -107,11 +118,5 @@ const App = () => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
 
 export default App;

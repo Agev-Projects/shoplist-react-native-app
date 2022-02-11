@@ -51,12 +51,13 @@ const ListItem = ({ item, deleteItem, selectItem, editItem }) => {
             selectItem(item.key, isChecked);
           }}
         />
-
-        <Text style={item.isSelected ? styles.textIsSelected : styles.text}>
-          {item.text}
-        </Text>
+        <View style={styles.textContainer}>
+          <Text style={item.isSelected ? styles.textIsSelected : styles.text}>
+            {item.text}
+          </Text>
+        </View>
       </View>
-      <View style={{ paddingRight: 10, flexDirection: "row" }}>
+      <View style={styles.iconsContainer}>
         <TouchableOpacity
           style={{ marginRight: 50 }}
           onPress={() => setModal(!modal)}

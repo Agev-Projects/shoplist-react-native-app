@@ -22,6 +22,14 @@ const styles = StyleSheet.create({
     marginRight: 15,
     marginVertical: 15,
   },
+  textContainer: {
+    width: "50%",
+    flexShrink: 1,
+  },
+  iconsContainer: {
+    paddingRight: 15,
+    flexDirection: "row",
+  },
   containerIsSelected: {
     flexDirection: "row",
     justifyContent: "space-between",
