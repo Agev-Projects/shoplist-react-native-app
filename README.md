@@ -60,7 +60,7 @@ O projeto foi desenvolvido em React Native utilizando o Expo CLI. O aplicativo p
 
 Além das características obrigatórias e opcionais, o aplicativo também possui uma característica adicional:
 
-- Excluir os itens selecionados;
+- Excluir os itens selecionados.
 
 ## INSTALAÇÃO DO PROJETO
 
